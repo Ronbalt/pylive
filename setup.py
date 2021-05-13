@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from setuptools import setup
 
@@ -31,7 +31,7 @@ setup(
     # It does however seem that there is a fairly high bar for pyliblo's build
     # succeeding... I think I was only able to achieve this on MSYS2 on Windows,
     # with a bit of installation of dependencies required.
-    install_requires = ['cython', 'pyliblo >= 0.9.1'],
+    #install_requires = ['cython', 'pyliblo >= 0.9.1'],
     extras_require={
         'pythonosc': ['python-osc']
     },
